@@ -1,0 +1,8 @@
+Arquivo para teste da compressao de huffman, repetindo dados para teste,
+repetindo dados para teste, repetindo dados para teste
+
+aaaabbbbccccdefgggghhiiijjjklmmmnnnooopqrstuuuuvwxyyzzzz
+AAAABBBBBCCCDDEEFFGGHHIIJJKLMNOOOPQRSTTTTUUUVWXYYYYZZZ
+12345678901234567890123456789012345678901234567890
+         SUAHSUAH   UASHAUSHA   SRSRSRSRRSRS
+'"!@#$%¨&*()-=[´~]/;.,<>:?^}{`+_'"'"!!@#$#@%¨&¨&*()_+{`^}?:<>:?:<??^}{`=-_+{`=-´[]~\|||\\\||

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Processamento Paralelo</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data_1 = google.visualization.arrayToDataTable([
+          ['Tamanho', 'Sequencial', 'T2','T4','T8', 'P2', 'P4', 'P8'],
+          ['5120 x 5120\n(26214400)',     1.000000, 1.864232, 2.077191, 1.964752, 0.418285, 0.475572, 0.511382],
+          ['10240 x 10240\n(104857600)',  1.000000, 1.892980, 2.183262, 2.180977, 0.421356, 0.476352, 0.509206],
+          ['20480 x 20480\n(419430400)',  1.000000, 1.899231, 2.204679, 2.235687, 0.422343, 0.477327, 0.510222],
+          ['40960 x 40960\n(1677721600)', 1.000000, 1.911700, 2.212869, 2.251002, 0.017426, 0.013793, 0.014587]
+        ]);
+
+        var options = {
+          areaOpacity:0,
+          title: 'Speedup',
+          hAxis: {title: 'Tamanho Matriz',  titleTextStyle: {color: '#333'}},
+          vAxis: {minValue: 0, format: 'long', ticks: [1.000000,1.864232,2.077191,1.964752, 2.400000,0.418285,0.421356,0.511382, 0.017426]}
+        };
+
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div_1'));
+        chart.draw(data_1, options);
+        
+        // tabela 2 
+        var data_2 = google.visualization.arrayToDataTable([
+          ['Tamanho', 'Sequencial','T2','T4','T8', 'P2', 'P4', 'P8'],
+          ['5120 x 5120\n(26214400)',     1.000000, 0.932116, 0.519298, 0.245594, 0.209142, 0.118893, 0.063923],
+          ['10240 x 10240\n(104857600)',  1.000000, 0.946490, 0.545816, 0.272622, 0.210678, 0.119088, 0.063651],
+          ['20480 x 20480\n(419430400)',  1.000000, 0.949616, 0.551170, 0.279461, 0.211171, 0.119332, 0.063778],
+          ['40960 x 40960\n(1677721600)', 1.000000, 0.955850, 0.553217, 0.281375, 0.008713, 0.003448, 0.001823]
+        ]);
+        
+        var options = {
+          areaOpacity:0,
+          title: 'Eficiência',
+          hAxis: {title: 'Tamanho Matriz',  titleTextStyle: {color: '#333'}},
+          vAxis: {minValue: 0, format: 'long', ticks: [0.245594,0.519298,0.932116,0.209142,0.118893,0.063923,1.000000]}
+        };
+
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div_2'));
+        chart.draw(data_2, options);
+
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Processamento Pararelo</h1>
+    <div class="tabela1">
+        <div id="chart_div_1" style="width: 100%; height: 500px;"></div>
+    </div>
+
+    <div class="tabela2">
+        <div id="chart_div_2" style="width: 100%; height: 500px;"></div>
+    </div>
+
+  </body>
+</html>

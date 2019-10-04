@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -J MLnp4
+#SBATCH -p long
+#SBATCH -N 1
+#SBATCH -n 4
+#SBATCH -c 1
+#SBATCH --exclusive
+
+source /home_nfs/local/mpi/openmpi-1.8.5/mpivars.sh
+
+ulimit -s unlimited
+ulimit -a
+
+date
+srun --resv-ports ./runmpi 5120 5120
+date

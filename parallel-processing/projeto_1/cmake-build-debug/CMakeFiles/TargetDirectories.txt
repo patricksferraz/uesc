@@ -1,0 +1,3 @@
+/home/ferraz/Documentos/dev_area/projects/uesc/uesc_pp/projeto_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ferraz/Documentos/dev_area/projects/uesc/uesc_pp/projeto_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ferraz/Documentos/dev_area/projects/uesc/uesc_pp/projeto_1/cmake-build-debug/CMakeFiles/projeto_1.dir

@@ -1,0 +1,127 @@
+ nav ul a,
+ nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+div.hr
+{
+  margin: -10px 43% 10px 43%;
+  border-bottom: 3px solid #009688;
+}
+
+blockquote {
+  border-left: 5px solid #009688;
+}
+
+.text-justify
+{
+  text-align: justify;
+}
+
+.table-of-contents a:hover {
+  border-left: 1px solid #009688;
+}
+
+.table-of-contents a.active {
+  border-left: 2px solid #009688;
+}
+
+.toc-contents {
+  position: fixed;
+  margin-top: 10%;
+}
+
+div.social-icons>a
+{
+  color: #80cbc4;
+}
+
+div.social-icons>a:hover
+{
+  color: #009688;
+}
+
+.vertical-align
+{
+  vertical-align: middle;
+}
+
+.bottom-align
+{
+  vertical-align: bottom;
+}
+
+ul.footer-link>li>a
+{
+  color: #fff;
+}
+
+ul.footer-link>li>a:hover
+{
+  color: #bcaaa4;
+}
+
+.oculto
+{
+  display: none;
+}
+
+.bloco
+{
+  margin: 0 !important;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}

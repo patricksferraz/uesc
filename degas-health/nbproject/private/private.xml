@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/ferraz/Documentos/dev_area/projects/uesc/uesc_es/src/utils/EspecialidadeUtils.java</file>
+            <file>file:/home/ferraz/Documentos/dev_area/projects/uesc/uesc_es/src/tipos/Especialidade.java</file>
+            <file>file:/home/ferraz/Documentos/dev_area/projects/uesc/uesc_es/src/facade/Facade.java</file>
+            <file>file:/home/ferraz/Documentos/dev_area/projects/uesc/uesc_es/src/utils/EquipamentoUtils.java</file>
+            <file>file:/home/ferraz/Documentos/dev_area/projects/uesc/uesc_es/src/database/EquipamentoDAO.java</file>
+            <file>file:/home/ferraz/Documentos/dev_area/projects/uesc/uesc_es/src/database/EspecialidadeDAO.java</file>
+            <file>file:/home/ferraz/Documentos/dev_area/projects/uesc/uesc_es/src/utils/DateUtils.java</file>
+            <file>file:/home/ferraz/Documentos/dev_area/projects/uesc/uesc_es/test/facade/FacadeTest.java</file>
+            <file>file:/home/ferraz/Documentos/dev_area/projects/uesc/uesc_es/src/utils/FuncionarioUtils.java</file>
+        </group>
+    </open-files>
+</project-private>

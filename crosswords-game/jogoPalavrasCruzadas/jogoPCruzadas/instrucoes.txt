@@ -1,0 +1,26 @@
+1 - Clique em Jogar
+2 - Escolha a dificuldade (fácil, médio, difícil)
+- Fácil: Jogo com 5 palavras cruzadas
+- Médio: Influencia somente na partida contra a máquina, passando
+dicas a mesma
+- Difícil: Jogo com mais de 5 cruzadas e influencia contra a máquina,
+pelo mesmo motivo dito anteriormente
+3 - Escolha o modo de jogo (Play VS Play, Play VS Máquina)
+- Se escolheu Play VS Play, digite o nome dos dois jogadores
+- Se escolheu Play VS Máquina, digite o nome do único jogador, o
+segundo jogador será a máquina
+4 - Após preencher os campos corretamente, clique em "Atualizar",
+para as informações serem validadas
+5 - O botão "Iniciar" será exibido se todos dados estiverem corretos,
+caso contrário, uma mensagem surgira
+6 - Passe o mouse sobre o número para obter a dica
+7 - Clique na cruzada que deseja dar o "palpite"
+- Cuidado, palavras com acento diferem. Após selecionar uma palavra,
+não há como voltar atrás
+8 - Digite a palavra na caixa de diálogo e clique "Confirmar" ou "Passar"
+- Se confirmar com a caixa vazia ou fechar a caixa, irá passar a vez
+- Cada acerto equivale a 50 pontos
+9 - Realize o passo 9 sempre que for sua vez de jogar
+10 - Após concluir todas as cruzadas clique em finalizar Jogo
+- Se clicar em "Voltar", na tela do jogo, todos dados serão perdidos
+11 - Seu recorde será armazenado e poderá jogar novamente

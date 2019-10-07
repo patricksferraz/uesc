@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -fopenmp -lm -g   CMakeFiles/projeto_1.dir/main.c.o CMakeFiles/projeto_1.dir/functionsix.c.o CMakeFiles/projeto_1.dir/functionsix_processor.c.o CMakeFiles/projeto_1.dir/output_generator.c.o  -o projeto_1 

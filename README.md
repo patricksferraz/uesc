@@ -1,1 +1,26 @@
 # UESC
+
+Repository containing abstracts, codes and study materials for the following projects developed at UFBA (Federal University of Bahia in english):
+
+- [aes-crypto](https://github.com/patricksferraz/uesc/tree/all/aes-crypto)
+- [bolzano-theorem](https://github.com/patricksferraz/uesc/tree/all/bolzano-theorem)
+- [cesar-crypto-c](https://github.com/patricksferraz/uesc/tree/all/cesar-crypto-c)
+- [cesar-crypto](https://github.com/patricksferraz/uesc/tree/all/cesar-crypto)
+- [crosswords-game](https://github.com/patricksferraz/uesc/tree/all/crosswords-game)
+- [data-warehouse](https://github.com/patricksferraz/uesc/tree/all/data-warehouse)
+- [degas-health](https://github.com/patricksferraz/uesc/tree/all/degas-health)
+- [des-crypto](https://github.com/patricksferraz/uesc/tree/all/des-crypto)
+- [distributed-hash-table](https://github.com/patricksferraz/uesc/tree/all/distributed-hash-table)
+- [huffman-compress](https://github.com/patricksferraz/uesc/tree/all/huffman-compress)
+- [lz77-compress](https://github.com/patricksferraz/uesc/tree/all/lz77-compress)
+- [nim-game-site](https://github.com/patricksferraz/uesc/tree/all/nim-game-site)
+- [parallel-processing](https://github.com/patricksferraz/uesc/tree/all/parallel-processing)
+- [polyalphabetic-crypto](https://github.com/patricksferraz/uesc/tree/all/polyalphabetic-crypto)
+- [pong-game](https://github.com/patricksferraz/uesc/tree/all/pong-game)
+- [rsa-crypto](https://github.com/patricksferraz/uesc/tree/all/rsa-crypto)
+- [run-length-encode-compress](https://github.com/patricksferraz/uesc/tree/all/run-length-encode-compress)
+- [scanner-portugol](https://github.com/patricksferraz/uesc/tree/all/scanner-portugol)
+- [single-key-crypto](https://github.com/patricksferraz/uesc/tree/all/single-key-crypto)
+- [tcp-socket/TCP](https://github.com/patricksferraz/uesc/tree/all/tcp-socket/TCP)
+- [to-na-serie-site](https://github.com/patricksferraz/uesc/tree/all/to-na-serie-site)
+- [udp-socket/UDP](https://github.com/patricksferraz/uesc/tree/all/udp-socket/UDP)
